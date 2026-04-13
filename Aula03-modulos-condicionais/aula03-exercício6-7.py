@@ -16,5 +16,11 @@ else:
 
 #Exercício 7
 
+idade = int(input("Digite sua idade: "))
 
-
+if idade >= 18 and idade < 70:
+    print("Seu voto é OBRIGATÓRIO")
+elif idade >= 16 and idade < 18 or idade >= 70:
+    print("Seu voto é OPCIONAL")
+else:
+    print("Seu voto não é VALIDO")
